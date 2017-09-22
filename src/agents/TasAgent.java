@@ -68,6 +68,7 @@ public class TasAgent extends Agent {
 		List<Flight> listaFlights = new ArrayList<Flight>();
 		listaFlights = (List<Flight>) objetoArgs[0];
 		for (int i = 0; i < listaFlights.size(); i++) {
+		//TODO implementar aqui rotas
 			Flight flight = listaFlights.get(i);
 			m_assignment.put(flight, TasAgent.FLIGHT_UNASSIGNED);
 		}
